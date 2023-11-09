@@ -143,7 +143,6 @@ else if (numNeighbours > 1) {console.log(`There are more neighbours as just 1`)}
 if (populationAlbania < 50000000 && !isIsland && language==="English") {console.log(`Sarah can live in Albania`)}
 else (console.log(`Sarah can not live in albania`))
 
-*/
 
 const language = "Hindi";
 
@@ -172,6 +171,12 @@ else if ((language === `Chinese`) || (language === `Mandarin`)) {console.log(`2`
 else if (language === `Spanish`) {console.log(`2`);}
 else if (language === `Hindi`) {console.log(`3`);}
 else if (language === `Arabic`) {console.log(`4`);}
+*/
+ // Ternary (Conditional operator)
 
+ const bill = 275;
 
+const pit = bill >= 50 && bill <= 300 ? (bill*1.15) : (bill*1.20); // Ersetzt für kleine Entscheidungen die if oder switch funktion
+
+console.log(`The bill was ${bill}, and the sume with the tip is ${pit}`);
 
